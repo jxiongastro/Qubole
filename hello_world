@@ -1,23 +1,203 @@
 {
   "paragraphs": [
     {
-      "text": "",
-      "config": {},
+      "text": "print(\"Hello World\")",
+      "user": "xiong_jie@astro.com.my",
+      "dateUpdated": "Jul 12, 2018 2:45:33 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "paragraphProgress": {
+        "jobs": [],
+        "numCompletedTasks": 0,
+        "numTasks": 0,
+        "truncated": false
+      },
+      "version": "v0",
+      "jobName": "paragraph_1531363166244_-2132083077",
+      "id": "20180712-023926_467628077_q_54JMFN7SKR1531363160",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "Hello World"
+      },
+      "dateCreated": "Jul 12, 2018 2:39:26 AM",
+      "dateSubmitted": "Jul 12, 2018 2:45:33 AM",
+      "dateStarted": "Jul 12, 2018 2:45:36 AM",
+      "dateFinished": "Jul 12, 2018 2:46:44 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 1000
+    },
+    {
+      "text": "%pyspark\nfoo \u003d spark.sql(\"SELECT \u0027Hello World\u0027\")",
+      "user": "xiong_jie@astro.com.my",
+      "dateUpdated": "Jul 12, 2018 2:49:11 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "paragraphProgress": {
+        "jobs": [],
+        "numCompletedTasks": 0,
+        "numTasks": 0,
+        "truncated": false
+      },
+      "version": "v0",
+      "jobName": "paragraph_1531363533293_-103779942",
+      "id": "20180712-024533_30143841_q_54JMFN7SKR1531363160",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": ""
+      },
+      "dateCreated": "Jul 12, 2018 2:45:33 AM",
+      "dateSubmitted": "Jul 12, 2018 2:49:11 AM",
+      "dateStarted": "Jul 12, 2018 2:49:11 AM",
+      "dateFinished": "Jul 12, 2018 2:49:23 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 1000
+    },
+    {
+      "text": "%pyspark\nfoo.show()",
+      "user": "xiong_jie@astro.com.my",
+      "dateUpdated": "Jul 12, 2018 2:49:41 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "JOB UI",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "https://us.qubole.com/cluster-proxy?encodedUrl\u003dhttp%3A%2F%2F10.23.20.53%3A8088%2Fproxy%2Fapplication_1531360942841_0001/jobs/job?spark\u003dtrue\u0026id\u003d0"
+          ],
+          "interpreterSettingId": "2DKK7TA9C59651531363167441"
+        }
+      },
+      "paragraphProgress": {
+        "jobs": [
+          {
+            "id": 0,
+            "jobUrl": "https://us.qubole.com/cluster-proxy?encodedUrl\u003dhttp%3A%2F%2F10.23.20.53%3A8088%2Fproxy%2Fapplication_1531360942841_0001/jobs/job?spark\u003dtrue\u0026id\u003d0",
+            "numTasks": 1,
+            "numCompletedTasks": 1,
+            "stages": [
+              {
+                "id": 0,
+                "completed": true,
+                "stageUrl": "https://us.qubole.com/cluster-proxy?encodedUrl\u003dhttp%3A%2F%2F10.23.20.53%3A8088%2Fproxy%2Fapplication_1531360942841_0001/stages/stage/?id\u003d0\u0026attempt\u003d0",
+                "numCompleteTasks": 1,
+                "numActiveTasks": 0,
+                "numFailedTasks": 0,
+                "numTotalTasks": 1
+              }
+            ],
+            "status": "Success"
+          }
+        ],
+        "numCompletedTasks": 1,
+        "numTasks": 1,
+        "truncated": false
+      },
+      "version": "v0",
+      "jobName": "paragraph_1531363644303_-2116447411",
+      "id": "20180712-024724_1411381455_q_54JMFN7SKR1531363160",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "+-----------+\n|Hello World|\n+-----------+\n|Hello World|\n+-----------+\n\n"
+      },
+      "dateCreated": "Jul 12, 2018 2:47:24 AM",
+      "dateSubmitted": "Jul 12, 2018 2:49:41 AM",
+      "dateStarted": "Jul 12, 2018 2:49:41 AM",
+      "dateFinished": "Jul 12, 2018 2:49:45 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 1000
+    },
+    {
+      "text": "just testing github\n",
+      "user": "xiong_jie@astro.com.my",
+      "dateUpdated": "Jul 12, 2018 2:50:21 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
       "settings": {
         "params": {},
         "forms": {}
       },
       "version": "v0",
-      "jobName": "paragraph_1531363166244_-2132083077",
-      "id": "20180712-023926_467628077_q_54JMFN7SKR1531363160",
-      "dateCreated": "Jul 12, 2018 2:39:26 AM",
+      "jobName": "paragraph_1531363694939_256191787",
+      "id": "20180712-024814_1003198826_q_54JMFN7SKR1531363160",
+      "dateCreated": "Jul 12, 2018 2:48:14 AM",
       "status": "READY",
       "progressUpdateIntervalMs": 1000
     }
   ],
   "name": "Hello_World",
   "id": "54JMFN7SKR1531363160",
-  "angularObjects": {},
+  "angularObjects": {
+    "2DFZ7BWNV59651529988653174:shared_process": [],
+    "2DKK7TA9C59651531363167441:shared_process": [],
+    "2DJ5MBVJJ59651529988653206:shared_process": [],
+    "2DJYYN7XQ59651529988653170:shared_process": []
+  },
   "config": {
     "isDashboard": false,
     "defaultLang": ""
